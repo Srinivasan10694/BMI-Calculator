@@ -1,10 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .App {
+  font-family: 'Roboto', sans-serif;;
   text-align: center;
+  height: auto;
+  width: 600px;
+  margin-top: 100px;
+  margin-left: 380px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label{
+  padding: 10px;
+  background-color: #9009f3;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  margin: 20px;
+  background-color: rgba(255,255,255,0.3);
+  border-color: cornflowerblue;
+  border-radius: 5px;
+}
+inpit:hover{
+  background-color:  #9009f3;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+button{
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: #ffffff;
 }
 
 @media (prefers-reduced-motion: no-preference) {
